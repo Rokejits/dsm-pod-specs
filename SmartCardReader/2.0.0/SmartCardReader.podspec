@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
   s.author          = { "Siwaporn Deemongkol" => "Siwaporn_Dee@truecorp.co.th" }
   s.source          = { :git => "git@gitlab.com:mobilevas/VasReadCard_iOS.git", :tag => s.version.to_s }
-  s.platform        = :ios, "9.0"
+  s.platform        = :ios, "10.0"
   s.module_name     = s.name
 
   s.source_files    = "ReadIDCard/SmartCardReader/**/*.*" 
